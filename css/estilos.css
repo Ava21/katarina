@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgb(14, 1, 39) , rgb(4, 58, 83));
+    color: antiquewhite;
+    background: url(../img/katarina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bienvenida{
+    font-family: 'Raleway Dots', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+.menu{
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 250px;
+}
+.menu h4{
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Raleway Dots',cursive;
+}
+.menu ul{
+    list-style: none;
+    width: 50%;
+    margin: 20px 5px;
+    padding: 10px;
+    border: 2px solid rgb(78, 3, 6) ;
+    border-radius: 8px;
+} 
